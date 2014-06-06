@@ -1,0 +1,56 @@
+/*
+   Push the jumbotron down
+*/
+.jumbotron{
+    margin-top: 100px;
+}
+/*
+        Added by stephanj for school table
+*/
+
+table {
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+/*
+        Added by stephanj for school table
+*/
+.table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+/*
+        Added by stephanj for school table heading
+*/
+.table th {
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.tablebackground {
+    background-color: black;
+    color: white;
+}
+
+.alertextra{
+    text-align: center;
+}
+
+.deletemessage{
+    width: 910px;
+    padding-left: 230px;
+}
+
+.proper-content {
+    margin-bottom: 100px; /* padding at bottom of the page */
+}
+
+.student-list{
+    width: 130px;
+}
