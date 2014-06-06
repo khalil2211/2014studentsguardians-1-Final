@@ -59,7 +59,7 @@ class GuardianController extends \BaseController {
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified resources.
      *
      * @param  int  $id
      * @return Response
