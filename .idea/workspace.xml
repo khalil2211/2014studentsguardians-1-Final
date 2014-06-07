@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258a335d-9fc7-482a-bb8d-d330be1383ae" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\2014studentsguardians-1-Final\app\controllers\GuardianController.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2014studentsguardians.iws" />
@@ -87,7 +83,7 @@
       <file leaf-file-name="UsersTableSeeder.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="29" selection-start="669" selection-end="669" vertical-scroll-proportion="0.703567" vertical-offset="66" max-vertical-offset="1672">
+            <state line="70" column="14" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.78351784" vertical-offset="903" max-vertical-offset="1782">
               <folding>
                 <element signature="e#6#291#0" expanded="true" />
               </folding>
@@ -409,7 +405,11 @@
       <created>1402051792751</created>
       <updated>1402051792751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The Master opy is working fine&#10;Hi guys i have tried to set Hash password to the data base bu fialed,&#10;">
+      <created>1402138363114</created>
+      <updated>1402138363115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -471,7 +471,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="The Master opy is working fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Master opy is working fine" />
+    <MESSAGE value="The Master opy is working fine&#10;Hi guys i have tried to set Hash password to the data base bu fialed,&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="The Master opy is working fine&#10;Hi guys i have tried to set Hash password to the data base bu fialed,&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -563,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="669" selection-end="669" vertical-scroll-proportion="0.703567" vertical-offset="66" max-vertical-offset="1672">
+        <state line="70" column="14" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.78351784" vertical-offset="903" max-vertical-offset="1782">
           <folding>
             <element signature="e#6#291#0" expanded="true" />
           </folding>
