@@ -39,8 +39,8 @@ Route::controller('users', 'UserController');
 
 /*
  * resource controller for the guardians
- *
- */
-Route::resource('guardians', 'GuardianController');
+ * edited by khalil
 
+Route::resource('guardians', 'GuardianController');
+*/
 

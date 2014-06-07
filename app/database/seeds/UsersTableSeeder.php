@@ -11,25 +11,28 @@
  *=================================================
  */
 
+/* aadded only 5 user by khalil */
+
+
 class UsersTableSeeder extends Seeder{
 
     public function run(){
 
         // create user object
-        $user = new User;
+        $user1 = new User;
         // populate object
-        $user->id = 1;
-        $user->username = 'john';
-        $user->password = Hash::make('john');
+        $user1->u_id = 1;
+        $user1->u_name = 'ivan';
+        $user1->u_password = Hash::make('ivan');
         // save to table
-        $user->save();
+        $user1->save();
 
         // create user object
         $user2= new User;
         // populate object
-        $user2->id = 2;
-        $user2->username = 'cynthia';
-        $user2->password = Hash::make('cynthia');
+        $user2->u_id = 2;
+        $user2->u_name = 'khalil';
+        $user2->u_password = Hash::make('khalil');
         // save to table
         $user2->save();
 
@@ -37,19 +40,31 @@ class UsersTableSeeder extends Seeder{
         // create user object
         $user3= new User;
         // populate object
-        $user3->id = 3;
-        $user3->username = 'paul';
-        $user3->password = Hash::make('paul');
+        $user3->u_id = 3;
+        $user3->u_name = 'kieran';
+        $user3->u_password = Hash::make('kieran');
         // save to table
         $user3->save();
 
         // create user object
         $user4= new User;
         // populate object
-        $user4->id = 4;
-        $user4->username = 'linda';
-        $user4->password = Hash::make('linda');
+        $user4->u_id = 4;
+        $user4->u_name = 'seungsup';
+        $user4->u_password = Hash::make('seungsup');
+
         // save to table
         $user4->save();
+
+        $user5= new User;
+        // populate object
+        $user5->u_id = 5;
+        $user5->u_name = 'seungsup';
+        $user5->u_password = Hash::make('seungsup');
+
+        // save to table
+        $user5->save();
+
     }
 }
+

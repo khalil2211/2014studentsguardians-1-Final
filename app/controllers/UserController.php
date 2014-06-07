@@ -22,14 +22,17 @@ class UserController extends BaseController {
     /*
      *   Method called to display logon page for user
      *   Preface the method with the get verb
+     * edited by khalil
      */
     public function getLogin() {
         return View::make('users.login');
     }
 
+
+
     /*
      *  Authenticate the user
-     */
+
     public function postLogin() {
         // perform the authentication
         if (Auth::attempt(array('username'=>Input::get('username'), 'password'=>Input::get('password')))) {
@@ -47,6 +50,7 @@ class UserController extends BaseController {
                 ->withInput();
         }
     }
+*/
 
     public function getLogout() {
 

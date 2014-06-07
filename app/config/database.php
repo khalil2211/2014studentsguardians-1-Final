@@ -43,6 +43,7 @@ return array(
 	| choice installed on your machine before you begin development.
 	|
 	*/
+    /* changed by khalil */
 
 	'connections' => array(
 
@@ -54,10 +55,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => '2014studentguardianexample',
-			'username'  => 'khalil1',
-			'password'  => 'khalil',
+			'host'      => 'sql5.freemysqlhosting.net',
+			'database'  => 'sql542855',
+			'username'  => 'sql542855',
+			'password'  => 'vK4%yA2%',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
