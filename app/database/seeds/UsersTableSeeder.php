@@ -43,7 +43,7 @@ class UsersTableSeeder extends Seeder{
         $user3= new User;
         // populate object
         $user3->u_id = 3;
-        $user3->u_name = 'sivan';
+        $user3->u_name = 'ivan';
         $user3->u_password = Hash::make('ivan');
 
         // save to table
