@@ -32,6 +32,9 @@ class UserController extends BaseController {
 
     /*
      *  Authenticate the user
+     * edited by khalil
+
+
 
     public function postLogin() {
         // perform the authentication

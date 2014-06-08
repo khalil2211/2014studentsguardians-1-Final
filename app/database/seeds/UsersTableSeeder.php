@@ -24,8 +24,8 @@ class UsersTableSeeder extends Seeder{
         $user= new User;
         // populate object
         $user->u_id = 1;
-        $user->u_name = 'kieran';
-        $user->u_password = Hash::make('kieran');
+        $user->username = 'kieran';
+        $user->password = Hash::make('kieran');
         // save to table
         $user->save();
 
@@ -34,8 +34,8 @@ class UsersTableSeeder extends Seeder{
         $user2= new User;
         // populate object
         $user2->u_id = 2;
-        $user2->u_name = 'seungsup';
-        $user2->u_password = Hash::make('seungsup');
+        $user2->username = 'seungsup';
+        $user2->password = Hash::make('seungsup');
         // save to table
         $user2->save();
 
@@ -43,8 +43,8 @@ class UsersTableSeeder extends Seeder{
         $user3= new User;
         // populate object
         $user3->u_id = 3;
-        $user3->u_name = 'ivan';
-        $user3->u_password = Hash::make('ivan');
+        $user3->username = 'ivan';
+        $user3->password = Hash::make('ivan');
 
         // save to table
         $user3->save();
@@ -55,8 +55,8 @@ class UsersTableSeeder extends Seeder{
         $user4 = new User;
         // populate object
         $user4->u_id = 4;
-        $user4->u_name = 'kim';
-        $user4->u_password = Hash::make('kim');
+        $user4->username = 'kim';
+        $user4->password = Hash::make('kim');
         // save to table
         $user4->save();
 
@@ -64,8 +64,8 @@ class UsersTableSeeder extends Seeder{
         $user5= new User;
         // populate object
         $user5->u_id =5;
-        $user5->u_name = 'khalil';
-        $user5->u_password = Hash::make('khalil');
+        $user5->username = 'khalil';
+        $user5->password = Hash::make('khalil');
 
         // save to table
         $user5->save();

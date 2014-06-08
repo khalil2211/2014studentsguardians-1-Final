@@ -60,7 +60,7 @@
             {{ Form::label('usernameinput', 'Your Username') }}
             {{ Form::text('username', Input::old('username'),
             array('class' => 'form-control',
-            'placeholder' => 'e.g. johnl')) }}
+            'placeholder' => 'e.g. khalil')) }}
         </div>
 
         <div class="form-group">
