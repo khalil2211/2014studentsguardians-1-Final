@@ -41,12 +41,16 @@ public function  getLogin() {
     public function  postLogin(){
         // perform the authentication
 
+      //  dd(Input::get('password'));
+
         if(Auth::attempt(array('username'=>Input::get('username'),'password'=>Input::get('password')))) {
             //test to see if everything is okay
 
-            $loggedgaurdian = Auth::getUser();
-            echo "id :" . $loggedgaurdian->u_id . "username :" . $loggedgaurdian->username;
 
+            $loggedguardiamid = Auth::getUser()->u_id;
+            //echo "id :" . $loggedgaurdian->u_id . "username :" . $loggedgaurdian->username;
+
+            return Redirect::to('guardians/'. $loggedguardiamid);
         }else {
             return Redirect::to('users/login')
                 ->with('loginerrormessage', 'Your username/password combination was incorrect');
@@ -57,9 +61,9 @@ public function  getLogin() {
 
 
     }
-}
 
-/*
+
+
     public function getLogout() {
 
         Session::flush(); // clear the session
@@ -71,4 +75,3 @@ public function  getLogin() {
 
 
 }
-*/

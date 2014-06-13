@@ -36,7 +36,8 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="schools">Guardians
                     <b class="caret"></b></a>
                 <ul class="dropdown-menu" aria-labelledby="schools">
-                    <!--                    <li><a href= "{{ URL::to('guardians/' . $currentuser->guardian_id) }}" >Show my Students</a></li>-->
+                    <li></li>
+<!--                                        <li><a href= "{{ URL::to('guardians/' . $currentuser->guardian_id) }}" >Show my Students</a></li>-->
                    <!-- <li><a href= "{{ URL::to('guardians/' . Session::get('loggedinuserid')) }}" >Show my Students</a></li> -->
                 </ul>
             </li>
